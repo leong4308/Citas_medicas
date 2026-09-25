@@ -35,8 +35,10 @@ npm-debug.log*
 # Docker
 docker-compose.override.yml
 
-# Kilo (worktrees locales de herramientas de IA: NUNCA se suben)
+# Herramientas de IA locales (worktrees/agentes: NUNCA se suben)
 .kilo/
+.kilocode/
+.kilo*/
 
 # Turbo
 .turbo/
