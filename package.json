@@ -1,0 +1,19 @@
+{
+  "name": "citas_medicas",
+  "version": "1.0.0",
+  "packageManager": "npm@11.6.2",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "turbo run build",
+    "start": "cd backend && npm start",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}

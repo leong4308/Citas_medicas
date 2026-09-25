@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+# Otros gestores: el proyecto usa npm, así que su package-lock.json SI se versiona
+yarn.lock
+pnpm-lock.yaml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
+.next/
+.nuxt/
+.vite/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Docker
+docker-compose.override.yml
+
+# Kilo (worktrees locales de herramientas de IA: NUNCA se suben)
+.kilo/
+
+# Turbo
+.turbo/
